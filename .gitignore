@@ -1,0 +1,26 @@
+# Terraform 
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Variables sensibles
+terraform.tfvars
+*.auto.tfvars
+
+# cles prives
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+nova-azure-key
+nova-azure-key.pub
+
+# Systeme
+.DS_Store
+Thumbs.db
+
+#Visual Studio Code
+.vscode/
